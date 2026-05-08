@@ -117,15 +117,15 @@ python main.py
 After running the program, choose one of the following options:
 
 **Option 1: Drug Name Search**
-Enter a drug name (e.g., Aspirin)
-System fetches data from PubChem
-Predicts FDA approval probability
+1) Enter a drug name (e.g., Aspirin)
+2) System fetches data from PubChem
+3) Predicts FDA approval probability
 
 **Option 2: SMILES Input**
 
-Enter a SMILES string  
-System computes molecular descriptors  
-Outputs prediction result  
+1) Enter a SMILES string  
+2) System computes molecular descriptors  
+3) Outputs prediction result  
 
 Example SMILES:
 
@@ -134,15 +134,15 @@ CC(=O)OC1=CC=CC=C1C(=O)O
 ```
 
 **Option 3: Manual Feature Input**
-Enter molecular properties manually
-System predicts approval likelihood
+1) Enter molecular properties manually
+2) System predicts approval likelihood
 
 ### 4. Output Interpretation
-FDA Approved (Likely Approved): High probability of approval
-Not FDA Approved (Likely Rejected): Low probability of approval
+- FDA Approved (Likely Approved): High probability of approval
+- Not FDA Approved (Likely Rejected): Low probability of approval
 
 ## Notes
-Ensure all dependencies are installed before running
-RDKit installation may require Conda on some systems
-Internet connection required for PubChem lookup
+- Ensure all dependencies are installed before running
+- RDKit installation may require Conda on some systems
+- Internet connection required for PubChem lookup
 
