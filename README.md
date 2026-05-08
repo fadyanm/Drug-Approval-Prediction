@@ -103,12 +103,15 @@ pip install -r requirements.txt
 ## How to Use
 
 ### 1. Run Jupyter Notebook
+```bash
 jupyter notebook
-
+```
 Then open the main notebook and run all cells.
 
 ### 2. Run Python Script (if available)
+```bash
 python main.py
+```
 ### 3. Using the System
 
 After running the program, choose one of the following options:
@@ -118,8 +121,7 @@ Enter a drug name (e.g., Aspirin)
 System fetches data from PubChem
 Predicts FDA approval probability
 
-```md id="final-smiles"
-### Option 2: SMILES Input
+Option 2: SMILES Input
 
 Enter a SMILES string  
 System computes molecular descriptors  
