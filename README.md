@@ -116,12 +116,12 @@ python main.py
 
 After running the program, choose one of the following options:
 
-Option 1: Drug Name Search
+**Option 1: Drug Name Search**
 Enter a drug name (e.g., Aspirin)
 System fetches data from PubChem
 Predicts FDA approval probability
 
-Option 2: SMILES Input
+**Option 2: SMILES Input**
 
 Enter a SMILES string  
 System computes molecular descriptors  
@@ -133,7 +133,7 @@ Example SMILES:
 CC(=O)OC1=CC=CC=C1C(=O)O
 ```
 
-Option 3: Manual Feature Input
+**Option 3: Manual Feature Input**
 Enter molecular properties manually
 System predicts approval likelihood
 
